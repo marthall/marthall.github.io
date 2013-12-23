@@ -125,6 +125,12 @@ a:visited {
 .post {
     width: 800px;
     margin: auto;
+    color: #666;
+    font-size: 22;
+}
+
+.post p {
+    line-height: 120%;
 }
 
 .post .highlight {
@@ -138,12 +144,20 @@ a:visited {
 }
 
 .post pre {
-    padding: 6px 2px;
+    padding: 3px 2px 6px;
 }
 
 .post h1 {
     color: #666;
     margin-left: 5px;
+    font-size: 40;
+}
+
+.post h2 {
+    color: #666;
+    margin-left: 5px;
+    font-size: 30;
+    margin-bottom: 5px;
 }
 
 .post .lineno {
@@ -152,7 +166,11 @@ a:visited {
 
 .post p code {
     background-color: #073642;
-    padding: 1px 4px;
+    padding: 0px 6px 2px;
     color: #bbb;
     border-radius: 2px;
+}
+
+.post code {
+    font-size: 18;
 }
