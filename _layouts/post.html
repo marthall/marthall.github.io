@@ -1,16 +1,10 @@
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <link href="{{ site.url }}/static/css/base.css" rel="stylesheet" type="text/css">
-  <link href="{{ site.url }}/static/css/syntax.css" rel="stylesheet" type="text/css">
-</head>
+---
+layout: base
+phone: 994 58 958
+email: marthall@outlook.com
+---
 
-{% include header.html %}
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-<p>Hei</p>
 <div class="post">
-{{ content }}
-{% include footer.html %}
+  <h2>{{ page.title }}</h2>
+  {{ content }}
 </div>

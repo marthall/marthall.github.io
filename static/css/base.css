@@ -123,3 +123,12 @@ a:visited {
     padding-left: 40px;
     color: #666;
 }
+
+.post {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.post h2 {
+}
