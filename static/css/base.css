@@ -122,18 +122,19 @@ a:visited {
     color: #666;
 }
 
-.post {
+#post {
     width: 800px;
     margin: auto;
     color: #666;
     font-size: 22;
+    margin-bottom: 30px;
 }
 
-.post p {
+#post p {
     line-height: 120%;
 }
 
-.post .highlight {
+#post .highlight {
     border-radius: 4px;
     color: #bbb;
     margin: 4px;
@@ -143,34 +144,56 @@ a:visited {
     -webkit-box-shadow: 0px 0px 10px -2px #000 inset;
 }
 
-.post pre {
+#post pre {
     padding: 3px 2px 6px;
 }
 
-.post h1 {
+#post h1 {
     color: #666;
     margin-left: 5px;
     font-size: 40;
 }
 
-.post h2 {
+#post h2 {
     color: #666;
     margin-left: 5px;
     font-size: 30;
     margin-bottom: 5px;
 }
 
-.post .lineno {
+#post .lineno {
     margin-right: 10px;
 }
 
-.post p code {
+#post p code {
     background-color: #073642;
     padding: 0px 6px 2px;
     color: #bbb;
     border-radius: 2px;
 }
 
-.post code {
+#post code {
     font-size: 18;
+}
+
+#footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    border-top: solid 1px #ddd;
+    height: 40px;
+    padding: 8px;
+}
+
+hr {
+    margin-top: 40px;
+}
+
+#comments {
+    padding: 6px;
+}
+
+#footer-text {
+    text-align: center;
 }
