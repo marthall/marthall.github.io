@@ -1,0 +1,15 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link href="{{ site.url }}/static/css/base.css" rel="stylesheet" type="text/css">
+  <link href="{{ site.url }}/static/css/syntax.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="container">
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
+  </div>
+</body>

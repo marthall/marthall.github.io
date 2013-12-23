@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    background-color: #efeeee;
+}
+
+p {
+    margin: 0px 5px;
+    color: #666;
+}
+
+/*h1 {
+    font-size: 20px;
+}*/
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 0.5em 0; padding: 0; }
+
+.box-entry {
+    background-color: #fafafa;
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border: solid 1px #999;
+    box-shadow: 1px 1px 6px -2px #333;
+
+}
+
+.box-title {
+    width: 100%;
+    min-height: 20px;
+}
+
+#body_container {
+    width: 800px;
+    height: 100%;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+#header {
+    padding: 8px;
+    border-bottom: solid 1px #ddd;
+}
+
+#title {
+    font-size: 20px;
+    margin: auto 40px auto;
+    max-width: 70%;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff1493 !important;
+    text-decoration: none;
+
+}
+a:link {
+    color: #666;
+    text-decoration: none;
+
+}
+
+a:active {
+    color: #ff1493;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+#contact-info {
+    width: 200px;
+}
+
+
+#menu {
+    width: 60%;
+    min-width: 400px;
+    margin: auto;
+}
+
+#center {
+    margin: auto;
+    margin-top: 100px;
+}
+
+#center-img {
+    height: 200px;
+    width: auto;
+}
+
+.big-circular {
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;  
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    background: url("../img/main.png");
+    background-size: 300px auto;
+}
+
+.small-circular {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;  
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    background: url("main.png");
+    background-size: 300px auto;
+}
+
+#paragraph {
+    width: 400px;
+    font-size: 40;
+    padding-left: 40px;
+    color: #666;
+}

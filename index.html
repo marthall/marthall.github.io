@@ -1,0 +1,23 @@
+---
+layout: default
+title: marthall.github.io
+phone: 994 58 958
+email: marthall@outlook.com
+---
+<div id="front-view">
+  <table id="center">
+    <td>
+      <div class="big-circular"></div>
+    </td>
+    <td id="paragraph">
+      <p>Dette er et fett bilde!!! Og teksten går over flere linjer</p>
+      <ul>
+        {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </td>
+  </table>
+</div>
