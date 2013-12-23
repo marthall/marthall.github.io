@@ -1,15 +1,18 @@
 ---
 layout: post
-title:  "First post"
-date:   2013-12-23 00:49:30
-categories: jekyll update
+title: "Hello world"
+date: 2013-12-23 16:00:00
+categories: "hello world"
+permalink: blog/hello-world
 ---
-This is the first post!
+# Hello world
 
-Code snippet!!!
-{% highlight python %}
-def hello(name)
-  print("Hello, {name}".format(name=name))
-hello('Tom')
+Hello world!
+
+{% highlight python linenos %}
+def hello_world():
+    print "Hello world"
 {% endhighlight %}
+
+And some inline code `Hello world`.
 
