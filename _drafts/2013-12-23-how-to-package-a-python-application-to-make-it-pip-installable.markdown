@@ -13,7 +13,7 @@ Python scripts are usable for a lot of stuff, i.e. fetching tha latest posts fro
 It only takes three simple steps to make you python app pip-installable.
 
 1. Write your script or application
-2. Add a 'setup.py'-file
+2. Add a `setup.py`-file
 3. Upload to [PyPI](https://pypi.python.org)
 
 After this, you and anyone else can install it by typing:
